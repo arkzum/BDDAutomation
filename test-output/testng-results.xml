@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="75271" started-at="2021-06-20T19:15:38 BST" finished-at="2021-06-20T19:16:54 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner@2a70a3d8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression Suite" duration-ms="75271" started-at="2021-06-20T19:15:38 BST" finished-at="2021-06-20T19:16:54 BST">
+      <class name="com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner@2a70a3d8]" name="setUpClass" is-config="true" duration-ms="742" started-at="2021-06-20T19:15:38 BST" finished-at="2021-06-20T19:15:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner@2a70a3d8]" name="runScenario" duration-ms="27385" started-at="2021-06-20T19:15:39 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-20T19:16:06 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update Personal Information (First Name) in my account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[My Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner@2a70a3d8]" name="runScenario" duration-ms="41220" started-at="2021-06-20T19:16:06 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-20T19:16:48 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Order T-Shirt and verify detail in Order History"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Order Confirmation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner@2a70a3d8]" name="tearDownClass" is-config="true" duration-ms="5878" started-at="2021-06-20T19:16:48 BST" finished-at="2021-06-20T19:16:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Test.Arunkumar.TestNGRunner.RegressionTestngRunner -->
+    </test> <!-- Regression Suite -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
