@@ -28,14 +28,15 @@ This is a hybrid framework built using different component - Selenium with Java 
 
 1. From command line   : mvn clean test -PrunRegressionTest    ( make sure Java and maven are installed in the machine)
 
-2. Using an IDE (Eclipse or Intellij )    : Run from the TestNG file in the path src/test/resources/TestNGXMLs/ (use RegressionTest.xml for regression tests and SmokeTest.xml for smoke tests)
+2. Using an IDE (Eclipse or Intellij )    : Run from the TestNG file in the path src/test/resources/TestNGXMLs/ (use RegressionTest.xml for regression tests and can be extended for smoke test by creating SmokeTest.xml and SmokeTestRunner.java file)
 
 3. Parallel execution can be achieved by modifying the data-provider-thread-count value in the testing XML file 
 
-## Reports
+## Reports and Screenshot
 
 1. Extent HTML and PDF reports are configured and will be available in Result folder
 2. HTML and JSON reports are configured and will be available in target folder
+
 
 
 
